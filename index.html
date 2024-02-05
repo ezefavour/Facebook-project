@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="css/best/logo.png" class="logo">
+            <ul>
+                <li><img src="css/best/notification.png"></li>
+                <li><img src="css/best/inbox.png"></li>
+                <li><img src="css/best/video.png"></li>
+               
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="css/best/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-user-icon" onclick="settingsMenuToggle">
+                <div class="online">
+                <img src="css/best/profile-pic.png">
+            </div>
+            </div>
+        </div>
+        <!--setting-->
+        <div class="setting-menu">
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="css/best/profile-pic.png">
+                    <div>
+                        <p>Frederick</p>
+                       <a href="#">See your profile</a>
+                    </div>
+                </div>
+                
+                <hr>
+                    <div class="user-profile">
+                        <img src="css/best/feedback.png">
+                        <div>
+                            <p>Give feedback</p>
+                           <a href="#">Help by following my page</a>
+                        </div>
+                    
+
+            </div>
+           <hr>
+
+           <div class="setting-links">
+            <img src="css/best/setting.png" class="setting-icon">
+            <a href="#">Settings & Privacy <img src="css/best/arrow.png" width="10px"></a>
+           </div>
+           <div class="setting-links">
+            <img src="css/best/help.png" class="setting-icon">
+            <a href="#">Help & Support <img src="css/best/arrow.png" width="10px"></a>
+           </div>
+           <div class="setting-links">
+            <img src="css/best/display.png" class="setting-icon">
+            <a href="#">Display & Accessiblty <img src="css/best/arrow.png" width="10px"></a>
+           </div>
+           <div class="setting-links">
+            <img src="css/best/logout.png" class="setting-icon">
+            <a href="#">Logout <img src="css/best/arrow.png" width="10px"></a>
+           </div>
+        </div>
+   
+    </nav>
+    <div class="container">
+
+        <!--left-sidebar-->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href=""><img src="css/best/news.png">Latest News</a>
+                <a href=""><img src="css/best/friends.png">friends</a>
+                <a href=""><img src="css/best/group.png">Group</a>
+                <a href=""><img src="css/best/marketplace.png">Marketplace</a>
+                <a href=""><img src="css/best/watch.png">Watch</a>
+                <a href=""><img src="css/best/see-more.png">See More</a>
+            
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="css/best/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="css/best/shortcut-2.png">Web Design course</a>
+                <a href="#"><img src="css/best/shortcut-3.png">Full stack Development</a>
+                <a href="#"><img src="css/best/shortcut-4.png">Website Experts</a>
+                
+            </div>
+
+        </div>
+        <!--main-content-->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                <img src="css/best/upload.png">
+                <p>post your story</p>
+            </div>
+            <div class="story story2">
+                <img src="css/best/member-1.png">
+                <p>Joy</p>
+            </div>
+            <div class="story story3">
+                <img src="css/best/member-2.png">
+                <p>Fred</p>
+            </div>
+            <div class="story story4">
+                <img src="css/best/member-3.png">
+                <p>Ella</p>
+            </div>
+            <div class="story story5">
+                <img src="css/best/member-4.png">
+                <p>Stone</p>
+            </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="css/best/profile-pic.png">
+                    <div>
+                        <p>Frederick</p>
+                        <small>Public<i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="css/best/like.png">Live video</a>
+                        <a href="#"><img src="css/best/photo.png">Photo/video</a>
+                        <a href="#"><img src="css/best/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+                
+            </div>
+           
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="css/best/profile-pic.png">
+                        <div>
+                            <p>Douglas</p>
+                            <span>August 05 2004, 12:30pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+              
+                <p class="post-text">Subscribe <span>@officialfkeyz</span> channel. <a href="#">@officialfkeyz</a> <a href="#">channel</a></p>
+                <img src="css/best/feed-image-1.png" class="post-img">
+
+
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="css/best/like-blue.png">300</div>
+                        <div><img src="css/best/comments.png">120</div>
+                        <div><img src="css/best/share.png">99</div>
+                    </div>
+                    <div class="post-portfoile-icon">
+                        <img src="css/best/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="css/best/profile-pic.png">
+                    <div>
+                        <p>Frederick</p>
+                        <small>Public<i class="fa-solid fa-caret-down"></i></small>
+                    </div>
+                </div>
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="css/best/like.png">Live video</a>
+                        <a href="#"><img src="css/best/photo.png">Photo/video</a>
+                        <a href="#"><img src="css/best/feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+                
+            </div>
+           
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="css/best/profile-pic.png">
+                        <div>
+                            <p>Douglas</p>
+                            <span>August 05 2004, 12:30pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+              
+                <p class="post-text">Subscribe <span>@officialfkeyz</span> channel. <a href="#">@officialfkeyz</a> <a href="#">channel</a></p>
+                <img src="css/best/boy.jpg" class="post-img">
+
+
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="css/best/like-blue.png">500k</div>
+                        <div><img src="css/best/comments.png">500</div>
+                        <div><img src="css/best/share.png">100k</div>
+                    </div>
+                    <div class="post-portfoile-icon">
+                        <img src="css/best/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+            </div>
+             
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="css/best/profile-pic.png">
+                        <div>
+                            <p>Douglas</p>
+                            <span>August 05 2004, 12:30pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+                </div>
+              
+                <p class="post-text">Subscribe <span>@officialfkeyz</span> channel. <a href="#">@officialfkeyz</a> <a href="#">channel</a></p>
+                <img src="css/best/feed-image-2.png" class="post-img">
+
+
+
+                <div class="post-row">
+                    <div class="activity-icon">
+                        <div><img src="css/best/like-blue.png">500k</div>
+                        <div><img src="css/best/comments.png">500</div>
+                        <div><img src="css/best/share.png">100k</div>
+                    </div>
+                    <div class="post-portfoile-icon">
+                        <img src="css/best/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+        </div>
+    
+        <!--right-sidebar-->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>05</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Favour's Day</h4>
+                    <p><i<i class="fa-solid fa-location-dot"></i> World Hotel</p>
+                    <a href="#">More info</a>
+
+                </div>
+            </div> 
+            <div class="event">
+                <div class="left-event">
+                    <h3>06</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Pool Party</h4>
+                    <p><i class="fa-solid fa-location-dot"></i>Fred Hotel</p>
+                    <a href="#">More info</a>
+
+                </div>
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="css/best/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="css/best/member-1.png">
+
+                </div>
+                <p>Ella</p>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="css/best/member-2.png">
+
+                </div>
+                <p>phil</p>
+            </div>
+            
+            <div class="online-list">
+                <div class="online">
+                    <img src="css/best/member-3.png">
+
+                </div>
+                <p>Blessing</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copyright 2023 - @officialfkeyz channel</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
